@@ -30,6 +30,7 @@ const app = Vue.createApp({
     },
     updateVariant(index) {
       this.selectedVariant = index;
+      console.log(index);
     },
   },
   computed: {
